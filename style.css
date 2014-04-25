@@ -1,0 +1,2210 @@
+html {
+  overflow: hidden;
+  height: 600px;
+}
+
+body {
+  /*overflow: hidden */
+}
+
+.right-button {
+  position: absolute;
+  right: 1%;
+  top: 50%;
+  height: 0; 
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 30px solid #D0E799;
+  z-index: 4;
+}
+
+.left-button {
+  position: absolute;
+  left: 1%;
+  top: 50%;
+  width: 0; 
+  height: 0; 
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;  
+  border-right:30px solid #D0E799; 
+  z-index: 4;
+}
+
+.header {
+  height: 170px;
+  background-color: #25271E;
+  border-bottom: 5px solid #D0E799;
+  position: relative;
+}
+
+
+.headertext {
+  position: absolute;
+  width: 800px ;
+  float: left;
+  margin-left: 20%;
+}
+
+.header h1 {
+  position: relative;
+  color: #D0E799;
+  font-size: 130px ;
+  padding: 0;
+  margin: 0;
+  height: 135px;
+}
+
+.header h2 {
+  color: #D0E799;
+  font-size: 12px;
+  padding: 0;
+  margin: 0 0 0 30px;
+}
+
+.timeline {
+  width: 5000px;
+  max-width: 5100px;
+  color: gray;
+  margin-left: -4800px;
+  height: 480px;
+  /*overflow-x: hidden; */
+}
+
+.timeline p {
+  margin-left: 1%;
+}
+
+.one {
+  width: 400px;
+  height: 100px;
+  border-right: 1px dashed gray;
+  float: left;
+ 
+}
+
+.two {
+  width: 400px;
+  height: 100px;
+  border-right: 1px dashed gray;
+  float: left;
+ 
+}
+
+.three {
+  width: 400px;
+  height: 100px;
+  border-right: 1px dashed gray;
+  float: left;
+ 
+}
+
+.four {
+  width: 400px;
+  height: 100px;
+  border-right: 1px dashed gray;
+  float: left;
+ 
+}
+
+.five {
+  width: 400px;
+  height: 100px;
+  border-right: 1px dashed gray;
+  float: left;
+ 
+}
+
+.six {
+  width: 400px;
+  height: 100px;
+  border-right: 1px dashed gray;
+  float: left;
+ 
+}
+
+.seven {
+  width: 400px;
+  height: 100px;
+  border-right: 1px dashed gray;
+   float: left;
+  
+}
+
+.eight {
+  width: 400px;
+  height: 100px;
+  border-right: 1px dashed gray;
+  float: left;
+ 
+}
+
+.nine {
+  width: 400px;
+  height: 100px;
+  border-right: 1px dashed gray;
+  float: left;
+ 
+}
+
+.ten {
+  width: 400px;
+  height: 100px;
+  border-right: 1px dashed gray;
+  float: left;
+ 
+}
+
+.eleven {
+  width: 400px;
+  height: 100px;
+  border-right: 1px dashed gray;
+  float: left;
+ 
+}
+
+.twelve {
+  width: 400px;
+  height: 100px;
+  float: left;
+ 
+}
+
+.titles {
+  margin-left: 23%;
+  margin-top: 27%;
+  line-height: 3;
+}
+
+.titles p {
+  font-size: 30px;
+}
+
+.background {
+  background: url('images/landscape4.png');
+  background-repeat: no-repeat;
+  height: 480px;
+  width: 5000px;
+  background-position: 20% 90%;
+}
+
+.welcome {
+  height: 350px;
+  width: 450px;
+  background: white;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: -550px;
+  border: 4px solid #D0E799;
+  z-index: 2;
+}
+
+.welcometitle {
+  height: 40px;
+  background: #25271E;
+  padding: 0;
+  text-align: center;
+
+}
+
+.welcome p {
+  padding: 15px;
+}
+
+.test {
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+
+.hider {
+  background: #25271E;
+  color: white;
+  height: 35px;
+  width: 120px;
+  text-decoration: none;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 20px;
+  border: 3px solid #D0E799;
+  line-height: 1.6;
+}
+
+.blur {
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 0.6;
+  position: absolute;
+  z-index: 1;
+}
+
+.yahoo {
+  position: relative;
+  bottom: 65px;
+  left: 850px;
+  height: 30px;
+  width: 51px;
+}
+
+.yahooinfo {
+  position: absolute;
+  bottom: 0px;
+  right: 51px;
+  background: white;
+  height: 105px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #2ada2a;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.yahooinfo h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+  float: left;
+}
+
+.yahooinfo p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+  float: left;
+}
+
+.yahoo:hover .yahooinfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.google {
+  position: relative;
+  bottom: 102px;
+  left: 1350px;
+  height: 30px;
+  width: 51px;
+}
+
+.googleinfo {
+  position: relative;
+  bottom: 100px;
+  background: white;
+  height: 105px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #2ada2a;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.googleinfo h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.googleinfo p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.google:hover .googleinfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.www {
+  position: relative;
+  bottom: 156px;
+  left: 350px;
+  height: 30px;
+  width: 51px;
+}
+
+.wwwinfo {
+  position: relative;
+  bottom: 100px;
+  background: white;
+  height: 90px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #2ada2a;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.wwwinfo h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.wwwinfo p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.www:hover .wwwinfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.facebook {
+  position: relative;
+  bottom: 206px;
+  left: 2200px;
+  height: 30px;
+  width: 51px;
+}
+
+.facebookinfo {
+  position: relative;
+  bottom: 100px;
+  background: white;
+  height: 130px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #2ada2a;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+  z-index: 3;
+}
+
+.facebookinfo h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.facebookinfo p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.facebook:hover .facebookinfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.digg {
+  position: relative;
+  bottom: 201px;
+  left: 2250px;
+  height: 30px;
+  width: 51px;
+}
+
+.digginfo {
+  position: relative;
+  bottom: 100px;
+  background: white;
+  height: 105px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #2ada2a;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+  z-index: 3;
+}
+
+.digginfo h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.digginfo p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.digg:hover .digginfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.ebay {
+  position: relative;
+  bottom: 250px;
+  left: 950px;
+  height: 30px;
+  width: 51px;
+}
+
+.ebayinfo {
+  position: relative;
+  bottom: 100px;
+  background: white;
+  height: 105px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #2ada2a;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.ebayinfo h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.ebayinfo p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.ebay:hover .ebayinfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.linkedin {
+  position: relative;
+  bottom: 262px;
+  left: 1950px;
+  height: 30px;
+  width: 51px;
+}
+
+.linkedininfo {
+  position: relative;
+  bottom: 100px;
+  background: white;
+  height: 105px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #2ada2a;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.linkedin h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.linkedin p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.linkedin:hover .linkedininfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.twitter {
+  position: relative;
+  bottom: 287px;
+  left: 2450px;
+  height: 30px;
+  width: 51px;
+}
+
+.twitterinfo {
+  position: relative;
+  bottom: 100px;
+  background: white;
+  height: 105px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #2ada2a;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.twitterinfo h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.twitterinfo p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.twitter:hover .twitterinfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.amazon {
+  position: relative;
+  bottom: 342px;
+  left: 850px;
+  height: 30px;
+  width: 51px;
+}
+
+.amazoninfo {
+  position: relative;
+  bottom: 100px;
+  background: white;
+  height: 105px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #2ada2a;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.amazoninfo h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.amazoninfo p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.amazon:hover .amazoninfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.netflix {
+  position: relative;
+  bottom: 375px;
+  left: 1250px;
+  height: 30px;
+  width: 51px;
+}
+
+.netflixinfo {
+  position: relative;
+  bottom: 100px;
+  background: white;
+  height: 105px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #2ada2a;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.netflixinfo h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.netflixinfo p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.netflix:hover .netflixinfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.youtube {
+  position: relative;
+  bottom: 379px;
+  left: 2343px;
+  height: 30px;
+  width: 51px;
+}
+
+.youtubeinfo {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 105px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #2ada2a;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.youtubeinfo h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.youtubeinfo p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.youtube:hover .youtubeinfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.css {
+  position: relative;
+  bottom: 659px;
+  left: 1043px;
+  height: 30px;
+  width: 51px;
+}
+
+.cssinfo {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 115px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #f27435;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.cssinfo h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.cssinfo p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.css:hover .cssinfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.php {
+  position: relative;
+  bottom:  695px;
+  left: 843px;
+  height: 30px;
+  width: 51px;
+}
+
+.phpinfo {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 115px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #f27435;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.phpinfo h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.phpinfo p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.php:hover .phpinfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+
+.mysql {
+  position: relative;
+  bottom: 689px;
+  left: 843px;
+  height: 30px;
+  width: 51px;
+}
+
+.mysqlinfo {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 115px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #f27435;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.mysqlinfo h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.mysqlinfo p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.mysql:hover .mysqlinfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.smart {
+  position: relative;
+  bottom: 730px;
+  left: 1843px;
+  height: 30px;
+  width: 51px;
+}
+
+.smartinfo {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 115px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #f27435;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.smartinfo h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.smartinfo p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.smart:hover .smartinfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.internet {
+  position: relative;
+  bottom: 785px;
+  left: 363px;
+  height: 30px;
+  width: 51px;
+}
+
+.internetinfo {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 115px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #f27435;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.internetinfo h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.internetinfo p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.internet:hover .internetinfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.broadband {
+  position: relative;
+  bottom: 784px;
+  left: 1553px;
+  height: 30px;
+  width: 51px;
+}
+
+.broadbandinfo {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 115px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #f27435;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.broadbandinfo h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.broadbandinfo p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.broadband:hover .broadbandinfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.jquery {
+  position: relative;
+  bottom: 823px;
+  left: 2400px;
+  height: 30px;
+  width: 51px;
+}
+
+.jqueryinfo {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 115px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #f27435;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.jqueryinfo h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.jqueryinfo p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.jquery:hover .jqueryinfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.one1 {
+  position: relative;
+  bottom: 851px;
+  right: 2300px;
+  height: 30px;
+  width: 51px;
+  border: none;
+  float: right;
+}
+
+.one1info {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 115px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #f27435;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.one1info h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.one1info p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.one1:hover .one1info {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.css3 {
+  position: relative;
+  bottom: 867px;
+  right: 1900px;
+  height: 30px;
+  width: 51px;
+  float: right;
+}
+
+.css3info {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 115px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #f27435;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.css3info h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.css3info p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.css3:hover .css3info {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.chrome {
+  position: relative;
+  bottom: 859px;
+  right: 2200px;
+  height: 30px;
+  width: 51px;
+  float: right;
+}
+
+.chromeinfo {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 115px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #f27435;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.chromeinfo h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.chromeinfo p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.chrome:hover .chromeinfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.glass {
+  position: relative;
+  bottom: 855px;
+  right: 500px;
+  height: 30px;
+  width: 51px;
+  float: right;
+}
+
+.glassinfo {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 65px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #f27435;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.glassinfo h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.glassinfo p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.glass:hover .glassinfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.three1 {
+  position: relative;
+  bottom: 864px;
+  right: 40px;
+  height: 30px;
+  width: 51px;
+  float: right;
+}
+
+.three1info {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 65px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #f27435;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.three1info h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.three1info p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.three1:hover .three1info {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.web2 {
+  position: relative;
+  bottom: 844px;
+  right: 1940px;
+  height: 30px;
+  width: 51px;
+  float: right;
+}
+
+.web2info {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 65px;
+  width: 300px;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #f27435;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.web2info h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.web2info p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.web2:hover .web2info {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.blue {
+  position: relative;
+  bottom: 724px;
+  right: 4576px;
+  height: 30px;
+  width: 51px;
+  float: right;
+
+}
+
+.blueinfo {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 95px;
+  width: 300px;
+  float: right;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #3585f2;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.blueinfo h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.blueinfo p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue:hover .blueinfo {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.blue2 {
+  position: relative;
+  bottom: 729px;
+  right: 4000px;
+  height: 30px;
+  width: 51px;
+  float: right;
+
+}
+
+.blue2info {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 120px;
+  width: 300px;
+  float: right;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #3585f2;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.blue2info h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue2info p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue2:hover .blue2info {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.blue3 {
+  position: relative;
+  bottom: 738px;
+  right: 3600px;
+  height: 30px;
+  width: 51px;
+  float: right;
+
+}
+
+.blue3info {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 100px;
+  width: 300px;
+  float: right;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #3585f2;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.blue3info h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue3info p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue3:hover .blue3info {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.blue4 {
+  position: relative;
+  bottom: 748px;
+  right: 3100px;
+  height: 30px;
+  width: 51px;
+  float: right;
+
+}
+
+.blue4info {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 120px;
+  width: 300px;
+  float: right;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #3585f2;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.blue4info h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue4info p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue4:hover .blue4info {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.blue5 {
+  position: relative;
+  bottom: 750px;
+  right: 2763px;
+  height: 30px;
+  width: 51px;
+  float: right;
+
+}
+
+.blue5info {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 120px;
+  width: 300px;
+  float: right;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #3585f2;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.blue5info h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue5info p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue5:hover .blue5info {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.blue6 {
+  position: relative;
+  bottom: 729px;
+  right: 1863px;
+  height: 30px;
+  width: 51px;
+  float: right;
+
+}
+
+.blue6info {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 95px;
+  width: 300px;
+  float: right;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #3585f2;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.blue6info h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue6info p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue6:hover .blue6info {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.blue7 {
+  position: relative;
+  bottom: 724px;
+  right: 1463px;
+  height: 30px;
+  width: 51px;
+  float: right;
+
+}
+
+.blue7info {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 120px;
+  width: 300px;
+  float: right;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #3585f2;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.blue7info h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue7info p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue7:hover .blue7info {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.blue8 {
+  position: relative;
+  bottom: 733px;
+  right: 2050px;
+  height: 30px;
+  width: 51px;
+  float: right;
+
+}
+
+.blue8info {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 110px;
+  width: 300px;
+  float: right;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #3585f2;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.blue8info h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue8info p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue8:hover .blue8info {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.blue9 {
+  position: relative;
+  bottom: 747px;
+  right: 2320px;
+  height: 30px;
+  width: 51px;
+  float: right;
+
+}
+
+.blue9info {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 110px;
+  width: 300px;
+  float: right;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #3585f2;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.blue9info h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue9info p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue9:hover .blue9info {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.blue10 {
+  position: relative;
+  bottom: 737px;
+  right: 590px;
+  height: 30px;
+  width: 51px;
+  float: right;
+
+}
+
+.blue10info {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 110px;
+  width: 300px;
+  float: right;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #3585f2;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.blue10info h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue10info p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue10:hover .blue10info {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.blue11 {
+  position: relative;
+  bottom: 723px;
+  right: 1116px;
+  height: 30px;
+  width: 51px;
+  float: right;
+
+}
+
+.blue11info {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 95px;
+  width: 300px;
+  float: right;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #3585f2;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.blue11info h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue11info p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue11:hover .blue11info {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+.blue12 {
+  position: relative;
+  bottom: 743px;
+  right: 176px;
+  height: 30px;
+  width: 51px;
+  float: right;
+
+}
+
+.blue12info {
+  position: relative;
+  bottom: 125px;
+  background: white;
+  height: 115px;
+  width: 300px;
+  float: right;
+  visibility: hidden;
+  opacity:0;
+  border: 3px solid #3585f2;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+  padding: 0;
+}
+
+.blue12info h1 {
+  font-size: 18px;
+  color: black;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue12info p {
+  font-size: 14px;
+  color :gray;
+  padding: 2px;
+  margin: 0;
+}
+
+.blue12:hover .blue12info {
+  visibility: visible;
+  opacity:1;
+  transition-delay:0s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-- Reset all CSS
+
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  padding: 0;
+  margin: 0;
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9.
+ * Hide the `template` element in IE, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10.
+ */
+
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8+, and Opera
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
